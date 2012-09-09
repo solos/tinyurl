@@ -1,0 +1,101 @@
+h1 {
+    font-size: 24pt;
+}
+input[name="url"]
+{
+    width:500px;
+    height:31px;
+    font-size:26px;
+    line-height:31px;
+}
+
+input[name="custom_url"]
+{
+    width:50px;
+    height:31px;
+    margin-left:0px;
+}
+
+input[type="submit"]
+{
+    vertical-align: bottom;
+    width:100px; 
+    height:31px;
+    font-size:20px;
+}
+
+
+input[name="custom_id"] 
+{   
+    vertical-align: bottom;
+    width:160px; 
+    height:28px;
+    font-size:20px;
+}
+
+div[name="form"]
+{
+    width:620px;
+}
+
+div[name="inputbox"]
+{
+    width:500px;
+    float:left;
+}
+
+div[name="inputbutton"]
+{
+    margin-left:10px;
+}
+
+
+
+div[name="custom"]
+{
+    width:565px;
+    height:28px;
+    margin-top:20px;
+}
+
+div[name="custom_title"] 
+{
+    width:100px;
+    height:30px;
+    float:left;
+    text-align:right;
+    font-size:20px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+
+div[name="baseurl"]
+{
+    width:200px;
+    float:left;
+    margin-left:10px;
+    font-size:20px;
+    margin-top:2px;
+}
+
+div[name="custom_id"]
+{
+    width:170px;
+    float:left;
+    height: 28px;
+    font-size:16px;
+}
+
+#result {
+    width:400px;
+    height: 28px;
+    font-size:26px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footer {
+    font-size: 16px;
+    margin-left:auto;
+    margin-right:auto;
+}
