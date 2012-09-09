@@ -28,7 +28,8 @@ def tiny():
 
     url = request.forms.get('url').strip()
     if not ( url.startswith('http://') or url.startswith('https://') or \
-        url.startswith('mailto:') or url.startswith('data:') ):
+        url.startswith('ftp://') or url.startswith('mailto:') \
+        or url.startswith('data:') or url.startswith('ed2k:')):
         url = 'http://%s' % url
 
     custom_id = request.forms.get('custom_id').strip()
